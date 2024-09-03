@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <title>Form </title>
+   </head>
+   <style>
+    @import url("https://fonts.googleapis.com/css2?family=Rubik:wght@500&display=swap");
+
+    body {
+      background-image: url("images/garb5.jpg");
+      background-color: #2d7b19;
+      font-family: "Rubik", sans-serif;
+    }
+
+    .card {
+      width: 310px;
+      border: none;
+      border-radius: 15px;
+    }
+
+    .justify-content-around div {
+      border: none;
+      border-radius: 20px;
+      background: #f3f4f6;
+      padding: 5px 20px 5px;
+      color: #8d9297;
+    }
+
+    .justify-content-around span {
+      font-size: 12px;
+    }
+
+    .justify-content-around div:hover {
+      background: #545ebd;
+      color: #fff;
+      cursor: pointer;
+    }
+
+    .justify-content-around div:nth-child(1) {
+      background: #545ebd;
+      color: #fff;
+    }
+
+    span.mt-0 {
+      color: #8d9297;
+      font-size: 12px;
+    }
+
+    h6 {
+      font-size: 15px;
+    }
+    .mpesa {
+      background-color: green !important;
+    }
+
+    img {
+      border-radius: 15px;
+    }
+  </style>
+   <body>
+      <center>
+         <form style="padding-top: 150px;" action="pay.php" method="POST">
+            <fieldset style="width: 400px; height: 300px; background-color: white;">
+               <label style="padding-top: 200px;color:red;">Lipa Online</label>
+               <br>
+               <input class="input2" type="number" name="amount" placeholder="Enter Amount" style="margin-top: 60px;">
+               <br><br>
+               <input type="number" type="number" name="phone_number" placeholder="enter Phone number">
+               <br><br>
+               <button class="button" style="color: white; background-color: blue;">
+               Make Payment Now
+               </button>
+            </fieldset>
+        </form>
+     </center>
+     </div>
+  </body>
+</html>
+
+
